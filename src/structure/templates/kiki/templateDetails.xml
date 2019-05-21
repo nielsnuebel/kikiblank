@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "https://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+    <name>kiki</name>
+    <version>1.0</version>
+    <creationDate>4/30/2012</creationDate>
+    <author>Kiki</author>
+    <authorEmail>admin@joomla.org</authorEmail>
+    <copyright>Copyright (C) 2005 - 2019 Open Source Matters, Inc. All rights reserved.</copyright>
+    <description>Bla</description>
+    <files>
+        <filename>index.php</filename>
+        <filename>templateDetails.xml</filename>
+    </files>
+    <positions>
+        <position>debug</position>
+    </positions>
+</extension>

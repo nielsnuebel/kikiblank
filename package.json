@@ -1,0 +1,41 @@
+{
+  "name": "kikiblank",
+  "version": "1.0.0",
+  "description": "DESC",
+  "main": "index.js",
+  "scripts": {
+    "watch": "cross-env NODE_ENV=development gulp watch",
+    "build": "cross-env NODE_ENV=production gulp build",
+    "styles": "cross-env NODE_ENV=production gulp styles"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4",
+    "autoprefixer": "^9.5.1",
+    "browser-sync": "^2.26.5",
+    "cross-env": "^5.2.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-changed": "^3.2.0",
+    "gulp-if": "^2.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-glob": "^1.0.9",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-stylelint": "^9.0.0",
+    "node-notifier": "^5.4.0",
+    "stylelint": "^10.0.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}
